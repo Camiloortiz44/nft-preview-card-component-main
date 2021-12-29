@@ -23,7 +23,6 @@ h2 {
 
 .avatar {
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -40,13 +39,13 @@ h2 {
 }
 
 .image-equilibrium {
-    align-items: center;
-    display: flex;
     height: 300px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    padding: 18px 18px ;
     width: 300px;
-
+    padding: 25px 25px;
+    border-image-slice: 10px;
 }
 
 .contain {
