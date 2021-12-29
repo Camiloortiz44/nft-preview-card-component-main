@@ -9,27 +9,89 @@
 }
 
 body {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    background-color: var(--Very-dark-blu);
+    display: flex;
     height: 100vh;
     font-family: 'Outfit', sans-serif;
-    background-color: var(--Very-dark-blu);
+    justify-content: center;
+}
+
+h2 {
+    color: var(--Cyan);
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container {
     background-color: var(--Very-dark-blue);
-    width: 25%;
     border-radius: 15px;
+    max-height: 600px;
+    max-width: 350px;
 }
 
-.image {
-    display: flex;
-    justify-content: center;
+.image-avatar {
+    height: 40px;
+    width: 40px;
+}
+
+.image-equilibrium {
     align-items: center;
-    border-radius: 10px;
+    display: flex;
+    height: 300px;
+    justify-content: center;
     padding: 18px 18px ;
     width: 300px;
-    height: 300px;
 
+}
+
+.contain {
+    padding: 0px 30px;
+}
+
+.footer {
+    color: var(--Soft-blue);
+}
+
+.footer span {
+    color: var(--Cyan);
+    font-weight: bold;
+}
+
+.paragraph-title {
+    color: var(--Soft-blue);
+    font-size: 18px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.part-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.part-rigth {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.paragraph-icon {
+    margin-left: 5px;
+}
+
+.paragraph-clock {
+    color: var(--Soft-blue);
+}
+
+.paragraph-ethereum {
+    color: var(--Cyan);
+    font-weight: bold;
 }
