@@ -8,6 +8,11 @@
     --White: hsl(0, 0%, 100%);
 }
 
+aside {
+    border-top: 1px solid var(--Cyan);
+    padding-top: 10px;
+}
+
 body {
     align-items: center;
     background-color: var(--Very-dark-blu);
@@ -66,17 +71,18 @@ h2 {
     font-size: 18px;
 }
 
-.icons {
+.coin-value-date {
     display: flex;
     justify-content: space-between;
 }
-.part-left {
+
+.coin-value {
     display: flex;
     align-items: center;
     justify-content: left;
 }
 
-.part-rigth {
+.coin-date {
     display: flex;
     align-items: center;
     justify-content: right;
